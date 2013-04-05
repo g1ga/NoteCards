@@ -10,3 +10,15 @@ C:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.pdb
 C:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.xml
 C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.dll
 C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.pdb
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.Test.dll
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.Test.pdb
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.dll
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.exe
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.pdb
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.pdb
+D:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.xml
+D:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.csprojResolveAssemblyReference.cache
+D:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.Properties.Resources.resources
+D:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.csproj.GenerateResource.Cache
+D:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.dll
+D:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.pdb

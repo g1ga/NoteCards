@@ -5,3 +5,5 @@ C:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.View.MainForm.resources
 C:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.csproj.GenerateResource.Cache
 C:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.exe
 C:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.pdb
+D:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.exe
+D:\DATI\NoteCards\NoteCards\obj\x86\Debug\NoteCards.pdb
