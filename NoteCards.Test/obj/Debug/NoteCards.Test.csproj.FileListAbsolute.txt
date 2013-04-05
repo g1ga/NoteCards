@@ -1,0 +1,12 @@
+C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.csprojResolveAssemblyReference.cache
+C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.Properties.Resources.resources
+C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.csproj.GenerateResource.Cache
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.Test.dll
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.Test.pdb
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.dll
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.exe
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\NoteCards.pdb
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.pdb
+C:\DATI\NoteCards\NoteCards.Test\bin\Debug\Moq.xml
+C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.dll
+C:\DATI\NoteCards\NoteCards.Test\obj\Debug\NoteCards.Test.pdb

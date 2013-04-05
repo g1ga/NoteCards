@@ -20,8 +20,11 @@ namespace NoteCards.View
 
         public string SelectedNote
         {
-            get { return noteList.SelectedItem as string; }
-            set { noteList.SelectedItem = value; }
+            get
+            {
+                return noteList.SelectedItems[0].Text;
+            }
+            set { noteList.Items[value].Selected = true; }
         }
 
         public string StatusText
@@ -43,17 +46,19 @@ namespace NoteCards.View
 
         public void ClearSelectedNote()
         {
-            noteList.ClearSelected();
+            noteList.SelectedItems.Clear();
         }
 
         public void SetSelectedNote(string title)
         {
-            noteList.SelectedItem = title;
+            noteList.Items[title].Selected = true;
         }
 
         public void LoadNotes(IEnumerable<string> notes)
         {
-            noteList.DataSource = notes.ToList();
+            //the listView is not bindable, so we have to re-populate when the underlying collection change
+            noteList.Items.Clear();
+            noteList.Items.AddRange(notes.ToList().Select(note => new ListViewItem(note){Name = note}).ToArray());
         }
 
         public void LoadNote(NoteCard note)
@@ -72,10 +77,10 @@ namespace NoteCards.View
                 NoteText = noteText.Text
             };
         }
-        
-        private void noteList_SelectedValueChanged(object sender, EventArgs e)
+
+        private void noteList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (NoteSelected != null)
+            if (noteList.SelectedItems.Count>0 && NoteSelected != null)
                 NoteSelected(sender, e);
         }
 

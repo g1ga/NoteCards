@@ -35,7 +35,6 @@
             this.newNoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainContainer = new System.Windows.Forms.SplitContainer();
-            this.noteList = new System.Windows.Forms.ListBox();
             this.editPanel = new System.Windows.Forms.Panel();
             this.deleteButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.noteLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.noteList = new System.Windows.Forms.ListView();
             this.statusBar.SuspendLayout();
             this.mainMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mainContainer)).BeginInit();
@@ -121,16 +121,6 @@
             this.mainContainer.Size = new System.Drawing.Size(404, 276);
             this.mainContainer.SplitterDistance = 132;
             this.mainContainer.TabIndex = 0;
-            // 
-            // noteList
-            // 
-            this.noteList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.noteList.FormattingEnabled = true;
-            this.noteList.Location = new System.Drawing.Point(0, 0);
-            this.noteList.Name = "noteList";
-            this.noteList.Size = new System.Drawing.Size(132, 276);
-            this.noteList.TabIndex = 0;
-            this.noteList.SelectedValueChanged += new System.EventHandler(this.noteList_SelectedValueChanged);
             // 
             // editPanel
             // 
@@ -247,6 +237,18 @@
             this.mainPanel.Size = new System.Drawing.Size(404, 276);
             this.mainPanel.TabIndex = 2;
             // 
+            // noteList
+            // 
+            this.noteList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.noteList.FullRowSelect = true;
+            this.noteList.Location = new System.Drawing.Point(0, 0);
+            this.noteList.Name = "noteList";
+            this.noteList.Size = new System.Drawing.Size(132, 276);
+            this.noteList.TabIndex = 0;
+            this.noteList.UseCompatibleStateImageBehavior = false;
+            this.noteList.View = System.Windows.Forms.View.List;
+            this.noteList.SelectedIndexChanged += new System.EventHandler(this.noteList_SelectedIndexChanged);
+            // 
             // MainForm
             // 
             this.AcceptButton = this.saveButton;
@@ -280,7 +282,6 @@
         private System.Windows.Forms.MenuStrip mainMenu;
         private System.Windows.Forms.StatusStrip statusBar;
         private System.Windows.Forms.SplitContainer mainContainer;
-        private System.Windows.Forms.ListBox noteList;
         private System.Windows.Forms.Panel editPanel;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -297,6 +298,7 @@
         private System.Windows.Forms.Label noteLabel;
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.ToolStripStatusLabel statusLabel;
+        private System.Windows.Forms.ListView noteList;
 
     }
 }
